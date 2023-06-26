@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+body{
+background-color:rgba(52, 50, 50, 1) ;
+
+}
+header{
+    color: #f0eeed; 
+    }
+
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__box {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 17px;
+    min-width: 75px;
+    font-weight:bold;
+    
+    }
+.header__menu {
+        display: flex;
+        height: 75px;
+        align-items: center;  
+        justify-content: space-between;
+        width: 1100px;
+    }
+.menu__item{
+    margin-right: 20px;
+    color: rgb(151, 149, 149); 
+}
+.menu_center{
+    border: 1px solid #ffcd38;
+    color: #ffcd38;
+    padding: 10px 40px;
+    margin-right: 20px;
+}
+
+.afisha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+@media(max-width: 1122px){
+    .afisha{
+
+        justify-content: center;
+        
+    } 
+} 
+
+.arenda{
+    width: 540px;
+    height: 550px;   
+}
+.arenda_block{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 25px;
+}
+.arenda_textbig{
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 350%;
+}
+.arenda_text{
+    color: rgb(151, 149, 149);  
+    line-height: 150%;
+}
+span{
+    color: #ffcd38;
+}
+ 
+.arenda_but{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.but1{
+    background-color: #ffcd38;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+}
+
+.but2{
+    color: #ffcd38;
+    border: 1px solid #ffcd38; 
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+}
+
+.box1{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 47%;
+    color: #f0eeed;
+}
+
+.box2{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 47%;
+    color: #f0eeed;
+    justify-content: flex-end;
+}
+.icon{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.jpg_big{
+    width: 100%;
+    height: 550px;
+}
+
+.zagolovok{
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 300%;
+    margin-top: 50px;
+ 
+}
+
+.predlog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.item {
+ 
+    height: 220px;
+    width: 45%;
+    min-width: 450px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto{ 
+    width: 210px;
+}
+
+.jpeg{
+    width: 100%;
+    height: 100%;
+}
+
+.text_pred{   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.pred_name{   
+    color: #ffcd38;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pred_opisanie{
+    color: rgb(151, 149, 149); 
+    line-height: 150%;    
+}
+
+.cena{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+.tip{    
+    color:  rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.but3{
+    background-color: #ffcd38;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media (max-width: 930px) {
+    .item {
+        min-width: 500px;
+    }  
+    .predlog{
+        border: 1px solid #77642b; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team_logo{
+        border-radius: 25px;
+        height: 300px;
+        width: 450px;   
+    }
+}
+
+header {
+    height: 75px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.header__menu__mobile {
+    display: none;
+}
+.mobile__button{
+    display: none;
+}
+
+@media (max-width:960px) {
+
+    .mobile__button{
+        display: block;
+        height: 35px;
+        width: 35px;
+        margin-top: 10px;        
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__box {
+        justify-content: space-around;
+        background: rgb(71, 69, 69);
+    }
+
+    .header__menu__mobile {
+        display: flex;
+        border: 1px solid black;
+        flex-direction: column;
+        align-items: center;
+        background:  rgb(71, 69, 69);
+        margin-bottom: 500px;
+    }
+
+    .menu__item__mobile {
+        height: 45px;
+        color: rgb(151, 149, 149); 
+    }
+    .afisha{
+        margin-top: 400px;
+    }
+    .menu_center{
+        padding: 5px 20px 0px 20px;
+        margin-right: 0px;
+        height: 25px;
+        margin-bottom: 20px;
+        color: #ffcd38;
+      
+    }
+
+    
+}
+
+
+
