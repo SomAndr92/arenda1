@@ -32,7 +32,7 @@ header{
 
 .logo{
     height: 17px;
-    min-width: 75px;
+    min-width: 80px;
     font-weight:bold;
     
     }
@@ -52,6 +52,7 @@ header{
     color: #ffcd38;
     padding: 10px 40px;
     margin-right: 20px;
+    min-width: 228px;
 }
 
 .afisha{
@@ -154,6 +155,7 @@ span{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 75px;
 }
 
 
@@ -182,6 +184,7 @@ span{
     flex-direction: column;
     justify-content: space-between;
     margin-right: 25px;
+    margin-left: 25px;
 }
 
 .pred_name{   
@@ -222,7 +225,7 @@ span{
         min-width: 500px;
     }  
     .predlog{
-        border: 1px solid #77642b; 
+       
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -281,16 +284,30 @@ header {
         margin-top: 400px;
     }
     .menu_center{
-        padding: 5px 20px 0px 20px;
+        padding: 5px 20px 30px 20px;
         margin-right: 0px;
         height: 25px;
         margin-bottom: 20px;
         color: #ffcd38;
+        text-align: center;
       
     }
 
-    
 }
+
+.down{
+    background-color: rgba(39, 37, 37, 1);
+}
+
+.ffff{
+    color: #cc0a2a;
+}
+
+.foot_yel{
+
+    color: #ffcd38;
+}
+
 
 
 
